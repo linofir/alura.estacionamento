@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "UkYyfehMP9rr1aE59vWn0ZzGZ7ltRBjQ4VeNVrprq5lqyma5WJ1Lo5PmT/bW9esaEOQmSnePtGtWWsCV+RfXbA==",
+  "dgSpecHash": "aY/XQ0RfxrB5WiS9fDyqyBFW3zr7bHpSmfJx6IdzfCg1SWVwY8k9eXfJc9tdP/837BG5Zp0CKeL73g8s6svksA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre\\OneDrive\\Documentos\\Projetos\\Alura.Estacionamento - Final\\Alura.Estacionamento\\Alura.Estacionamento.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\lino\\Projetos_Programação\\alura.estacionamento\\Alura.Estacionamento\\Alura.Estacionamento.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lino\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\lino\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\lino\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\lino\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
   "logs": []
 }
