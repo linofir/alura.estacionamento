@@ -13,7 +13,7 @@ namespace Alura.Estacionamento.Tests
             //Arrange
             var veiculoTeste = new Veiculo();
             //Act
-            veiculoTeste.Acelerar(20);
+            veiculoTeste.Acelerar(10);
             //Assert
             Assert.Equal(100, veiculoTeste.VelocidadeAtual);
         

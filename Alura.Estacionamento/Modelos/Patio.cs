@@ -34,7 +34,10 @@ namespace Alura.Estacionamento.Modelos
         public void RegistrarEntradaVeiculo(Veiculo veiculo)
         {
             veiculo.HoraEntrada = DateTime.Now;
-            veiculo.Ticket = this.GerarTicket(veiculo);
+            if(veiculo != null)
+            {
+                veiculo.Ticket = this.GerarTicket(veiculo);
+            }
             this.Veiculos.Add(veiculo);            
         }
 
@@ -120,6 +123,8 @@ namespace Alura.Estacionamento.Modelos
             // Vamos criar um Id aletório para o Ticket usando a Classe GUID e vamos padronizar com o tamanho de 6 caracteres.
             string identificador = new Guid().ToString().Substring(0, 5);
             veiculo.IdTicket = identificador;
+            Console.WriteLine("teste");
+            Console.WriteLine(this.OperadorPatio.Matricula);
             string ticket = "### Ticket Estacionameno Alura ###" +
                            $">>> Identificador: {identificador}" +
                            $">>> Data/Hora de Entrada: {DateTime.Now}" +

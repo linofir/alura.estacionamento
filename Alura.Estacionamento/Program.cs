@@ -9,11 +9,14 @@ namespace Alura.Estacionamento
 
         // Cria uma lista de objetos do tipo veículos, para armazenar
         // os veículos (automovéis e motos) que estão no estacionamento;
-        static Patio estacionamento = new Patio();         
+        static Patio estacionamento = new Patio(); 
+        static Operador operador = new Operador();    
+
 
         static void Main(string[] args)
         {
             string opcao;
+            estacionamento.OperadorPatio = operador;
             do
             {
                 Console.WriteLine(MostrarCabecalho());
